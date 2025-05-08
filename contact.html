@@ -4,6 +4,7 @@
 <head>
   <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <link rel="stylesheet" href="Styles/style.css">
   <title>contact</title>
 </head>
@@ -31,16 +32,41 @@
         <h1 class="contact-h1">Contact me here, I will be happy to work with you.</h1>
       </div>
       <div class="fh">
-        <form>
-          <input type="text" class="name" placeholder="    full name">
-          <input type="text" class="email" placeholder="       email">
-          <input type="text" class="massage" placeholder="   massage">
-          <input type="submit" class="submit" value="send">
+        <form action="https://api.web3forms.com/submit" method="POST">
+          <input type="hidden" name="access_key" value="493d95ed-ec08-4647-a36d-d377ac65086c">
 
+          <input type="text" class="input name" name="name" placeholder="your name" required>
+          <input type="email" name="email" class="input email" placeholder="your email" required>
+          <textarea class="input massage" name="massage" placeholder="massage" required></textarea>
+          <input type="submit" class="submit" value="send">
         </form>
       </div> 
     </div>
-       
+       <!-- ... your existing form code ... -->
+    <!-- Social Media Icons Start -->
+    <div class="social-icons" style="text-align:center; margin-top: 30px;">
+      <h3>Connect with me:</h3>
+      <a href="https://wa.me/yourphonenumber" target="_blank" aria-label="WhatsApp">
+        <i class="fab fa-whatsapp" style="color:#25D366; font-size:24px; margin: 0 10px;"></i>
+      </a>
+      <a href="https://t.me/yourusername" target="_blank" aria-label="Telegram">
+        <i class="fab fa-telegram" style="color:#0088cc; font-size:24px; margin: 0 10px;"></i>
+      </a>
+      <a href="https://facebook.com/yourprofile" target="_blank" aria-label="Facebook">
+        <i class="fab fa-facebook" style="color:#1877f2; font-size:24px; margin: 0 10px;"></i>
+      </a>
+      <a href="https://x.com/yourusername" target="_blank" aria-label="X (Twitter)">
+        <i class="fab fa-x-twitter" style="color:#000; font-size:24px; margin: 0 10px;"></i>
+      </a>
+      <a href="https://instagram.com/yourprofile" target="_blank" aria-label="Instagram">
+        <i class="fab fa-instagram" style="color:#E1306C; font-size:24px; margin: 0 10px;"></i>
+      </a>
+    </div>
+    <!-- Social Media Icons End -->
+
+  </section>
      </section>
+  
 </body>
+<script src="Script/contact.js"></script>
 </html>
