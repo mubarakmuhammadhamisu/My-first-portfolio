@@ -1,0 +1,191 @@
+
+  html, body {
+      margin: 0;
+      padding: 0;
+      background: #000;
+      font-family: Arial, sans-serif;
+      color: white;
+    }
+
+    .project {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 97%;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding-top: 5rem;
+    }
+
+    .title {
+      text-align: center;
+      font-size: 2rem;
+      margin-bottom: 2rem;
+    }
+
+    .project-cards {
+      display: grid;
+      gap: 40px;
+      grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    }
+
+    .p-card {
+      background: #111;
+      padding: 1rem;
+      border-radius: 10px;
+      position: relative;
+      overflow: hidden;
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+
+    .p-card:hover {
+      transform: scale(1.02);
+    }
+
+    .p-card h2 {
+      font-size: 1.2rem;
+      margin: 0.5rem 0;
+    }
+
+    .imgp {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    .imgpro {
+      position: absolute;
+      width: 90px;
+      height: 150px;
+      top: 30%;
+      right: 10%;
+      object-fit: cover;
+      border: 2px solid white;
+      border-radius: 8px;
+    }
+
+    .p-link a {
+      display: inline-block;
+      margin-top: 1rem;
+      background: #2575fc;
+      color: white;
+      padding: 6px 12px;
+      border-radius: 4px;
+      text-decoration: none;
+      font-size: 0.9rem;
+      transition: background 0.3s ease;
+    }
+
+    .p-link a:hover {
+      background: #1b5ac2;
+    }
+
+    @media (max-width: 768px) {
+      .imgpro {
+        width: 70px;
+        height: 130px;
+        top: 35%;
+        right: 5%;
+      }
+    }
+
+    @media (max-width: 450px) {
+      .imgpro {
+        width: 60px;
+        height: 110px;
+        top: 38%;
+        right: 5%;
+      }
+    }
+  
+
+/*html{
+  background: black;
+}
+body,.project{
+  display: flex;
+  flex-direction: column;
+}
+.project{
+  justify-content: center;
+  width: 97%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.title{
+  display: flex;
+  justify-content: center;
+  padding-top: 6rem;
+  margin-bottom: 25px;
+  color: aliceblue;
+}
+.project-cards{
+  display: grid;
+  gap: 50px;
+  grid-template-columns: repeat(auto-fit,minmax(270px,1fr));
+}
+.p-card{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  color: white;
+  height: 320px;
+}
+.p-card h2{
+  text-align: center;
+}
+.imgp{
+  align-self: center;
+  width: 100%;
+  height: 250px;
+}
+.imgpro{
+  position: absolute;
+  width: 30%;
+  top: 30%;
+  height: 60%;
+}
+
+@media (max-width: 768px){
+    .p-card{
+    height: 280px;
+  }
+  
+  .imgp{
+  align-self: center;
+  height: 200px;
+}
+  
+    .imgpro{
+    top: 28%;
+    width: 90px;
+    height: 160px;
+  }
+  
+  
+}
+
+@media (max-width: 435px){
+  .imgp{
+  align-self: center;
+  width: 100%;
+  height: 180px;
+}
+  .p-card{
+    height: 260px;
+  }
+  .imgpro{
+    width: 85px;
+    height: 130px;
+    top: 35%;
+    left:78%;
+  }
+}
+@media (max-width: 375px){
+  .imgpro{
+    left: 75%;
+  }
+}
