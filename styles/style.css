@@ -3,26 +3,7 @@
   margin: 0;
   box-sizing: border-box;
 }
-#html-home,#body-home{
-  overflow-x: hidden;
-  background: black;
-  color: white;
-}
-#html-home{
-  display: flex;
-  flex-direction: column;
-  border: solid 4px red
-}
-/*#html-home {
-  min-height: 100%;
-  background: url(img1a.webp);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-#body-home{
-  min-height: 100vh;
-}
+
 /*=============nav bar========*/
 .nav{
   display: flex;
