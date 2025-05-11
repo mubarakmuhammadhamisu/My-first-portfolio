@@ -6,3 +6,5 @@ document.querySelector("form").addEventListener("submit", function (e) {
 });
 
 
+//<input type="hidden" name="redirect" value="https://yourdomain.com/thank-you.html">
+

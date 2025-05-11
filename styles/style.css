@@ -5,8 +5,15 @@
 }
 #html-home,#body-home{
   overflow-x: hidden;
+  background: black;
+  color: white;
 }
-#html-home {
+#html-home{
+  display: flex;
+  flex-direction: column;
+  border: solid 4px red
+}
+/*#html-home {
   min-height: 100%;
   background: url(img1a.webp);
   background-size: cover;
@@ -81,7 +88,7 @@
   transition: all 0.4s;
 }
 /*=========home page==========*/
-.page-body{
+/*.page-body{
   margin-top: 10rem;
   text-align: center;
   color: white;
@@ -89,7 +96,7 @@
 .page-body p{
   color: yellow;
 }
-#hire-me{
+.btc,.btcw{
   width: 11rem;
   height: 3.5rem;
   border: none;
@@ -102,9 +109,28 @@
   transition: all 0.4s;
   animation: bottunop 0.3s ease-in;
 }
-#hire-me:hover{
+.btc:hover{
   animation: glowb 2s infinite;
   transform: scale(1.1);
+}
+/*======act======*/
+/*.wh{
+  padding: 0;
+  margin: 0;
+}
+i{
+  margin: 10px;
+  font-size: 2rem;
+  padding: rem;
+  color: greenyellow;
+  border-radius: 
+}
+.bbt{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  color: aliceblue;
 }
 @keyframes bottunop{
   from{
@@ -163,7 +189,7 @@
     background: linear-gradient(40deg,red,cyan,yellow);
   }
 }
-/*================About page==============*/
+/*===============About page=============*/
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
 /*font-family: 'Dancing Script', cursive;*/
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
@@ -177,6 +203,13 @@
 .hint{
   padding-top: 0.3rem;
   padding-bottom: 1rem;
+  transition: all 0.3s ease;
+  padding-top: 1rem;
+}
+.hint:hover{
+  transform: scale(1.07);
+  text-shadow: 0 0 50px pink;
+  border-r
 }
 .hiding-c1{
   display: flex;
@@ -238,7 +271,7 @@
   transform: scale(1.2)
 }
 .about{
-  padding-top: ;
+  padding-top: 2rem;
   display: flex;
   width: 100%;
   max-width: 1200px;
