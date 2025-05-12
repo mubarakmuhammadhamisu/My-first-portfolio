@@ -1,0 +1,189 @@
+html{
+  background: black;
+}
+#bodys{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  
+}
+#skills {
+  background: black;
+}
+
+.cont {
+  width: 98%;
+  max-width: 1200px;
+  margin: 0 auto;
+  color: white;
+}
+
+.skill {
+  display: flex;
+  justify-content: center;
+  padding-top: 6rem;
+  font-size: 50px;
+}
+.skill-level{
+  position: absolute;
+  font-size: 21px;
+  top: 95%;
+}
+.skill_p_bars {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+}
+
+.s {
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  min-height: 320px;
+  padding: 1rem;
+  background: #111;
+  border-radius: 10px;
+  margin-left: 30px;
+  will-change: transform;
+  margin-top: 50px;
+  transition: transform 0.4s ease;
+}
+.s:hover{
+  transform: scale(1.1);
+  margin: 35px;
+  
+}
+/* Make icons and text readable */
+.skill-icon {
+  width: 70px;
+  height: 70px;
+  margin: 10px 0;
+}
+
+/* Circle container */
+.circle.small {
+  width: 150px;
+  height: 150px;
+  position: relative;
+  margin-top: 10px;
+}
+.skill-level{
+  margin-bottom: 5px;
+}
+/* Background ring */
+.bg {
+  stroke: #444;
+}
+
+/* Progress ring */
+.progress1 {
+  filter: drop-shadow(0 0 8px #e34c26);
+  stroke-dasharray: 376.992;
+  stroke-dashoffset: 56.54; /* 85% */
+  stroke-linecap: round;
+  fill: none;
+  stroke-width: 15;
+  animation: fillProgress1 2s forwards;
+}
+
+@keyframes fillProgress1 {
+  from{
+    stroke-dashoffset: 314;
+  }
+  to {
+    stroke-dashoffset: 19;
+  }
+}
+
+/* Percentage label */
+.label1,
+.label2,
+.label3,
+.label4,
+.label5,
+.label6{
+  font-size: 2rem;
+  font-weight: bold;
+}
+.ss{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  
+  z-index: 2;
+  
+}
+.progress2{
+  filter: drop-shadow(0 0 8px #66d9ef);
+  stroke-dasharray: 376.992;
+  stroke-linecap: round;
+  animation: fillProgress2 2s ease-out forwards;
+}
+@keyframes fillProgress2 {
+  from{
+    stroke-dashoffset: 314;
+  }
+  to {
+    stroke-dashoffset: 56.54;
+  }
+}.progress3{
+  filter: drop-shadow(0 0 8px #e5c914);
+  stroke-dasharray: 376.992;
+  stroke-linecap: round;
+  animation: fillProgress3 2s ease-out forwards;
+}
+@keyframes fillProgress3 {
+  from{
+    stroke-dashoffset: 314;
+  }
+  to {
+    stroke-dashoffset: 124.407;
+  }
+}.progress4{
+  filter: drop-shadow(0 0 8px #4b8bbe);
+  stroke-dasharray: 376.992;
+  stroke-linecap: round;
+  animation: fillProgress4 2s ease-out forwards;
+}
+@keyframes fillProgress4 {
+from{
+    stroke-dashoffset: 314;
+  }
+  to {
+    stroke-dashoffset: 36.699;
+  }
+}
+.progress5{
+  filter: drop-shadow(0 0 8px #2575ec);
+  stroke-dasharray: 376.992;
+  stroke-linecap: round;
+  animation: fillProgress5 2s ease-out forwards;
+}
+@keyframes fillProgress5 {
+from{
+    stroke-dashoffset: 314;
+  }
+  to {
+    stroke-dashoffset: 79.168;
+  }
+}
+.progress6{
+filter: drop-shadow(0 0 8px #dd2476);
+  stroke-dasharray: 376.992;
+  stroke-linecap: round;
+  animation: fillProgress6 2s ease-out forwards;
+}
+@keyframes fillProgress6 {
+from{
+    stroke-dashoffset: 314;
+  }
+  to {
+    stroke-dashoffset: 15.7;
+  }
+}
+
