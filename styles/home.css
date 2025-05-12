@@ -26,13 +26,7 @@ body {
   text-align: center;
   width: 100%;
 }
-.hero-visual {
-  order: -1; /* Show it before the text */
-}
 
-.hero-content {
-  order: 1;
-}
 
 
 @media(min-width: 768px) {
@@ -47,12 +41,7 @@ body {
       height: 600px;
   }
   .hero-visual {
-    order: 1;
     height: 380px;
-  }
-
-  .hero-content {
-    order: 1;
   }
 }
 
