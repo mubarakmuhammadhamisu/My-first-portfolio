@@ -6,7 +6,17 @@
       font-family: Arial, sans-serif;
       color: white;
     }
-
+body.li{
+    background: #fff;
+    
+}
+body.li > .project{
+    background: #fff;
+    color: black;
+}
+body.li > .project > .project-cards > .p-card{
+    background:  whitesmoke;
+}
     .project {
       display: flex;
       flex-direction: column;
