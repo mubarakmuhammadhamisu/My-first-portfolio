@@ -63,24 +63,29 @@ body.li > .project > .project-cards > .p-card{
       height: 200px;
       object-fit: cover;
       border-radius: 8px;
+      transition: all 0.3s ease;
     }
 
     .imgpro {
       position: absolute;
       width: 90px;
       height: 150px;
-      top: 0;
-      right: 10%;
+      top: 25%;
+      right: 6%;
       object-fit: cov;
       border: 2px solid black;
       border-radius: 8px;
+      transition: all 0.3s ease;
+    }
+    .imgp:hover,.imgpro:hover{
+      transform: scale(1.07);
     }
 
     .p-link a {
       display: inline-block;
       margin-top: 1rem;
       background: #2575fc;
-      color: white;
+      color: whie;
       padding: 6px 12px;
       border-radius: 4px;
       text-decoration: none;

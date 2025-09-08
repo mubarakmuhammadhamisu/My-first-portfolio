@@ -17,10 +17,10 @@ html{
 .hint:hover{
   transform: scale(1.07);
   text-shadow: 0 0 50px pink;
-  border-r
+  border-radius: 8px; /* Example fix */
 }
 .hiding-c1{
-  display: flex;
+  display: flex ;
   justify-content: space-between;
 }
 .card{
