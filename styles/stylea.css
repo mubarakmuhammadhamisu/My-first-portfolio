@@ -8,6 +8,12 @@ html{
 .heder-A{
   padding-top: 5.1rem;
 }
+.heder-A{
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: 'Pacifico', cursive;
+  text-shadow: 0 0 20px cyan;
+}
 .hint{
   padding-top: 0.3rem;
   padding-bottom: 1rem;
@@ -96,8 +102,14 @@ html{
   margin-left: 35px;
   box-shadow: 10px 10px 50px red;
   animation: blinking-glow 1.4s infinite;
-  /*color: white;
- font-family: 'pacifico', cursive;*/
+}
+.text{
+  padding: 1rem;
+  font-size: 1.2rem;
+  text-align: center;
+  line-height: 2;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
 }
 .div-img{
   display: flex;
