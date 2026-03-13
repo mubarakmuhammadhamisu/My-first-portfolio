@@ -155,11 +155,11 @@ body {
 }
 .blk{
   border: red solid 2px;
-  width: 16rem;
+  width: 20rem;
   height: 2.5rem;
   background: black;
   position: absolute;
-  left: 65%;
+  left: 47%;
   bottom: 1rem;
   z-index: 100;
 }
