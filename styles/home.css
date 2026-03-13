@@ -154,12 +154,12 @@ body {
   justify-content: center;
 }
 .blk{
-  /*border: red solid 2px;*/
+  border: red solid 2px;
   width: 16rem;
   height: 2.5rem;
   background: black;
   position: absolute;
-  left: 77%;
+  left: 57%;
   bottom: 1rem;
   z-index: 100;
 }
