@@ -154,6 +154,7 @@ body {
   justify-content: center;
 }
 .blk{
+  border: red solid 2px;
   width: 10rem;
   height: 2.5rem;
   background: black;
